@@ -1,0 +1,18 @@
+{
+  "success": {
+    "username": "daiane",
+    "password": "8]P;naPt"
+  },
+  "failPassword": {
+    "username": "admin",
+    "password": "Karine131181"
+  },
+  "failLogin": {
+    "username": "admim",
+    "password": "K@rine131181"
+  },
+  "failLoginPassword": {
+    "username": "admim",
+    "password": "Karine131181"
+  }
+}

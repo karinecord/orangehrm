@@ -1,0 +1,44 @@
+{
+  "addWorkExperience": {
+    "experience_employer": "Munich Re",
+    "experience_jobtitle": "HR Manager",
+    "experience_from_date": "2007-10-10",
+    "experience_to_date": "2012-10-16",
+    "experience_comments": "ok"
+    
+  },
+  "addEducation": {
+    "education_code": "Bacharelor Degree",
+    "education_institute": "Heidelberg University",
+    "education_major": "master",
+    "education_year": "4",
+    "education_gpa": "3.0",
+    "education_start_date": "2012-10-10",
+    "education_end_date": "2007-10-16"
+    
+  },
+  "addSkill": {
+    "skill_code": "Content Creation",
+    "skill_years_of_exp": "3",
+    "skill_comments": "ok"  
+    
+  },
+
+  "addLanguage": {
+    "language_code": "English",
+    "language_lang_type": "Writing",
+    "language_competency": "Poor",
+    "language_comments": "ok"
+  },
+
+  "addLicense": {
+    "license_code": "Certified Digital Marketing Professional (CDMP)",
+    "license_license_no": "123456",
+    "license_date": "2007-10-10",
+    "license_renewal_date": "2008-10-10"
+},
+
+"addAttachment": {
+  "txtAttDesc": "123456" 
+}
+}

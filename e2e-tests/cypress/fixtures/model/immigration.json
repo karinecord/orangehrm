@@ -1,0 +1,11 @@
+{
+  "add": {
+    "immigration_number": "94164066008",
+    "immigration_passport_issue_date": "2020-11-12",
+    "immigration_passport_expire_date": "2020-11-25",
+    "immigration_i9_status": "no",
+    "immigration_country": "Brazil",
+    "immigration_i9_review_date": "2020-11-26",
+    "immigration_comments": "ok"
+  }
+}

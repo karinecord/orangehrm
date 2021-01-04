@@ -1,1 +1,20 @@
-{}
+{
+  "baseUrl": "http://localhost",
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "testFiles": "**/*.feature",
+  "env": {
+    "TAGS": "not @ignore",
+    "baseUrl": "yourBaseUrl",
+    "ignoreTestFiles": "*.js",
+    "apiClientId": "cypress",
+    "apiClientSecret": "123456"
+  },
+  "chromeWebSecurity": false,
+  "projectId": "ebmofj",
+  "viewportWidth": 1200,
+  "viewportHeight": 900,
+  "experimentalShadowDomSupport": true
+}

@@ -1,0 +1,11 @@
+{
+  "addMembership": {
+    "membership_membership": "ACCA",
+    "membership_subscriptionPaidBy": "Company",
+    "membership_subscriptionAmount": "4000",
+    "membership_currency": "Brazilian Real",
+    "membership_subscriptionCommenceDate": "2020-10-19",
+    "membership_subscriptionRenewalDate":"2020-11-19"
+    
+  }
+}

@@ -1,0 +1,31 @@
+version: '3'
+services:
+  #orangehrm
+  webserver:
+    image: orangehrm/orangehrm
+    container_name: orangehrm-web
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  #MySQL Service
+  db:
+    image: mysql:5.7.22
+    container_name: ohrm-db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: ohrm-db
+      MYSQL_ROOT_PASSWORD: 123456
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge

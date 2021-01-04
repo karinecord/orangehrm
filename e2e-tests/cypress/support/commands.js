@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('getApiToken', (clientId, clientSecret) => {
+  const requestParams = {
+    client_id: clientId,
+    client_secret: clientSecret,
+    grant_type: 'client_credentials',
+  };
+
+  cy
+    .request('POST', '/symfony/web/index.php/oauth/issueToken', requestParams)
+    .then((response) => {
+      expect(response.status).to.eq(200);
+
+      return response.body;
+    });
+});
