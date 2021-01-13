@@ -1,6 +1,7 @@
 export class FormImmigration {
   getImmigration() {
-    return cy.get('.selected').get('li').contains('Immigration').click();
+    return cy.get('#sidenav').within(() => cy.get('.selected').get('li').contains('Immigration').click());
+    // return cy.get('.selected').get('li').contains('Immigration').click();
   }
 
   getAddImmigration() {

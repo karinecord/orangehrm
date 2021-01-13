@@ -1,6 +1,6 @@
 export class FormMembership {
   getMembership() {
-    return cy.get('.selected').get('li').contains('Memberships').click();
+    cy.get('#sidenav').within(() => cy.get('.selected').get('li').contains('Memberships').click());
   }
 
   getAddMembership() {

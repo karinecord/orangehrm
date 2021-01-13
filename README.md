@@ -23,6 +23,10 @@ OrangeHRM is distributed in the hope that it will be useful, but WITHOUT ANY WAR
 
 - For OrangeHRM Installation issues please refer to the OrangeHRM Installation Guide
 
+## Getting started with automated testing
+- For further information on how to run the e2e tests please refer the wiki on:
+https://github.com/karinecord/orangehrm/wiki/End-To-End-Testing
+
 ## OrangeHRM Mobile App
 
 <a href="https://play.google.com/store/apps/details?id=com.orangehrm.opensource" target="_blank">

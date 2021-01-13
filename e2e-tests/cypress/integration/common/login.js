@@ -6,5 +6,5 @@ const formLogin = new FormLogin();
 
 Given(/^the user has access to system$/, () => {
   formLogin.visit();
-  formLogin.doLogin('daiane', '8]P;naPt');
+  formLogin.doLogin('', '');
 });

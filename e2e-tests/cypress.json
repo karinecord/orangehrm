@@ -14,7 +14,7 @@
   },
   "chromeWebSecurity": false,
   "projectId": "ebmofj",
-  "viewportWidth": 1000,
-  "viewportHeight": 600,
+  "viewportWidth": 1200,
+  "viewportHeight": 900,
   "experimentalShadowDomSupport": true
 }
