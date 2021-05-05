@@ -12,7 +12,7 @@ export class FormSalary {
       cy.get('td.component').contains('Annual Basic Payment');
       cy.get('td').contains('Monthly');
       cy.get('td.currency').contains('Canadian Dollar');
-      cy.get('td.amount').contains('20000');
+      cy.get('td.amount').contains('30000');
       cy.get('td.comments').should('be.empty');
     });
   }

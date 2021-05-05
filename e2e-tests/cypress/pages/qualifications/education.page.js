@@ -10,7 +10,7 @@ export class FormEducation {
   }
 
   getLevel() {
-    return cy.get('#education_code').select("Bachelor's Degree");
+    return cy.get('#education_code').select("Bacharelor's Degree");
   }
 
   getInstitute() {
